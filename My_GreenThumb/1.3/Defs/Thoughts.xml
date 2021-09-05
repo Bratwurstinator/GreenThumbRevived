@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>	
+      <ThoughtDef>
+		<defName>GreenThumbHappy</defName>
+		<workerClass>GreenThumbRevived.ThoughtWorker_GreenThumbRevived</workerClass>
+		<requiredTraits>
+			<li>GreenThumbRevived</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>sowed a plant</label>
+				<description>What the world needs is some more plants!</description>
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+			<li>
+				<label>sowed a few plants</label>
+				<description>What the world needs is more plants!</description>
+				<baseMoodEffect>3</baseMoodEffect>
+			</li>
+			<li>
+				<label>sowed many plants</label>
+				<description>What the world needs is even more plants!</description>
+				<baseMoodEffect>9</baseMoodEffect>
+			</li>
+			<li>
+				<label>sowed a ton of plants</label>
+				<description>What the world needs is all of the plants!</description>
+				<baseMoodEffect>15</baseMoodEffect>
+			</li>
+		</stages>
+      </ThoughtDef>
+	  
+      <ThoughtDef>
+		<defName>GreenThumbRevived</defName>
+		<durationDays>1</durationDays>
+		<stackLimit>15</stackLimit>
+		<stackedEffectMultiplier>1</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<label>sowed a plant</label>
+				<description>What the world needs is more plants!</description>
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+		</stages>
+      </ThoughtDef>
+</Defs>

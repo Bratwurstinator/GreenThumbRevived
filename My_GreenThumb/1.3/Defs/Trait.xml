@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>  
+
+  <TraitDef>
+    <defName>GreenThumbRevived</defName>
+    <commonality>0.5</commonality>
+    <degreeDatas>
+      <li>
+        <label>green thumb</label>
+        <description>{PAWN_nameDef} has a passion for gardening. {PAWN_pronoun} gets a mood bonus for every plant {PAWN_pronoun} sows.</description>
+        <skillGains>
+          <li>
+            <key>Plants</key>
+            <value>2</value>
+          </li>
+        </skillGains>
+      </li>
+    </degreeDatas>
+    <requiredWorkTags>
+      <li>PlantWork</li>
+    </requiredWorkTags>
+ </TraitDef>
+ 
+ <TraitDef>
+    <defName>GreenThumbRevived2</defName>
+    <commonality>1</commonality>
+    <degreeDatas>
+      <li>
+        <label>green thumb 2</label>
+        <description>{PAWN_nameDef} has a passion for gardening. {PAWN_pronoun} gets a mood bonus for every plant {PAWN_pronoun} sows.</description>
+        <skillGains>
+          <li>
+            <key>Plants</key>
+            <value>2</value>
+          </li>
+        </skillGains>
+      </li>
+    </degreeDatas>
+    <requiredWorkTags>
+      <li>PlantWork</li>
+    </requiredWorkTags>
+ </TraitDef>
+</Defs>
